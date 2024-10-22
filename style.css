@@ -55,7 +55,7 @@ header nav ul li a:hover {
 }
 
 .header__options span{
-    width: 40px;
+    width: 32px;
     padding: 1px 8px;
     background-color: var(--primary-color);
 }

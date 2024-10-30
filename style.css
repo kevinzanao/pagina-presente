@@ -20,9 +20,10 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 100%; height: 8vh;
+    display: flex;
+    align-items: center;
     position: fixed;
-    padding: 2% 0;
     background-color: var(--quaternary-color);
 }
 
@@ -68,7 +69,7 @@ header nav ul li a:hover {
     height: 50vh;
     color: var(--primary-color);
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 
 .container__greeting__text {
@@ -151,7 +152,15 @@ footer p {
 
     header {
         height: 7vh;
+        padding: 0;
     }
+
+    .container__dedication p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
 
     header nav {
         display: none;
@@ -159,9 +168,5 @@ footer p {
 
     .header__options {
         display: flex;
-    }
-
-    .container__dedication p {
-        font-size: 16px;
     }
 }

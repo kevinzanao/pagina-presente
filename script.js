@@ -4,6 +4,8 @@ const carouselImages =  ["url('./assets/mulher-com-girassol.jpg')", "url('./asse
 
 let imageOfTheTime = 0;
 
+
+// Change the carousel image based on the current image
 function changeImage() {
 
     $container__greeting.style.backgroundImage = carouselImages[imageOfTheTime];
